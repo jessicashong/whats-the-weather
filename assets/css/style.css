@@ -1,0 +1,49 @@
+header {
+    background-color: navy;
+    color: white;
+    font-size: 30px;
+    padding: 2px;
+    text-align: center;
+}
+
+.searched-city {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.five-day {
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.search {
+    margin: 5px;
+    padding: 10px;
+}
+
+.form-input,
+.btn {
+    width: 100%;
+    padding: 2px;
+    margin: 5px;
+}
+
+.btn {
+    background-color: navy;
+    color: white;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.recent-searches {
+    margin: 5px;
+    padding: 10px;
+}
