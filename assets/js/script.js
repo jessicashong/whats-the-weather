@@ -2,9 +2,9 @@
 
 
 
-//function to search city
+//function to search city formhandler
 
-//fetch city from weather api
+//fetch city from weather api getCity
 
 //loop to create button after search
 // function recentSearch(){
