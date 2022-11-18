@@ -20,8 +20,8 @@
             <div class="search">
                 <h2>Search for a City: </h2>
                 <form id="user-form">
-                  <input name="city" id="city" type="text" autofocus="true" class="form-input" placeholder="Houston" />
-                  <button type="submit" class="btn">Search</button>
+                  <input name="city" id="cityInput" type="text" autofocus="true" class="form-input" placeholder="Houston" />
+                  <button type="submit" class="btn searchBtn">Search</button>
                 </form>
               </div>
             <section class="recent-searches">
@@ -30,10 +30,18 @@
         </div>
         <div class="col-12 col-md-8 col-lg-9">
             <section class="searched-city">
-                <h2>Searched city will go here</h2>
+                <h2 id="searchedCity"></h2>
             </section>
             <section class="five-day">
-                <h3>5-Day Forecast: </h3>
+                <h3 id="forecast">5-Day Forecast: </h3>
+            </section>
+
+            <section id="weatherContainer">
+                <div id="iconsContainer">
+                    <div class="icons">
+                        <p class="weather" id="day1"></p>
+                    </div>
+                </div>
             </section>
         </div>
       </div>
