@@ -14,7 +14,6 @@ header {
 
 .five-day {
     margin: 5px;
-    padding: 10px;
 
 }
 
@@ -41,6 +40,25 @@ h2 {
 
 h3 {
     font-size: 22px;
+    padding: 10px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+.card {
+    background-color: #323d45;
+    color: white;
+    padding:2px;
+}
+
+ul {
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
 .recent-searches {
