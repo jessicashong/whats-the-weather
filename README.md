@@ -6,7 +6,7 @@ This website is a weather app that provides a 5-day forecast and weather conditi
 
 ## Visual Presentation
 
-![screenshot of weather app]()
+![screenshot of weather app](./assets/images/whats-the-weather_index.html.png)
 
 
 ## Links
