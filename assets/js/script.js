@@ -23,7 +23,6 @@ searchBtn.addEventListener('click', function(e) {
         storeInputs();
         renderRecentSearches();
     }
-
     cityInput.value = '';
 }); 
 
@@ -79,10 +78,8 @@ function displayFiveDayForecast(data){
     if (parent !== null){
         while (parent.firstChild) {
             parent.removeChild(parent.firstChild);
-
         }
     }
-
     for(var i = 0; i < data.list.length; i++){
         var dateText = data.list[i].dt_txt.split(' ')[1];
         if (dateText === '06:00:00'){
@@ -93,7 +90,6 @@ function displayFiveDayForecast(data){
             //date
             var weatherCardDate = document.createElement('h4');
             weatherCardDate.innerHTML = moment(data.list[i].dt_txt.split(' ')[0]).format('l');
-            
             //forecast icon
             var icon = document.createElement('img');
             icon.setAttribute('src', 'http://openweathermap.org/img/w/' + data.list[i].weather[0].icon + '.png');
@@ -141,6 +137,3 @@ function renderRecentSearches(){
         cityInput.value = '';
     })
 }
-
-
-        
