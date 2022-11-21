@@ -13,4 +13,4 @@ This website is a weather app that provides a 5-day forecast and weather conditi
 
 [Github Repo](https://github.com/jessicashong/whats-the-weather)
 
-[What's the Weather? Application]()
+[What's the Weather? Application](https://jessicashong.github.io/whats-the-weather/)
